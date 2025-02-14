@@ -10,6 +10,9 @@ function App() {
         <p>
           Explore the Haunted Grounds of Mr. Jefferson's University
         </p>
+        <p style={{color: "darkred", size: "4vh"}}>
+          Every place is haunted.
+        </p>
         <img src={ghost} style={{height: "20vh"}} className="Ghost-image" alt="A ghost" />
       </header>
       <footer className="App-footer">
