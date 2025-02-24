@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import ghost from './ghost.png';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./Main";
+import Haunted from "./Haunted";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} style={{height: "16vh"}} className="App-logo" alt="logo" />
-        <p>
-          Explore the Haunted Grounds of Mr. Jefferson's University
-        </p>
-        <p style={{color: "darkred", size: "4vh"}}>
-          Every place is haunted.
-        </p>
-        <img src={ghost} style={{height: "20vh"}} className="Ghost-image" alt="A ghost" />
-      </header>
-      <footer className="App-footer">
-         Disclaimer: Ghosts on Grounds is not sponsored or affiliated in any way with the University of Virginia.
-      </footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/haunted" element={<Haunted />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
