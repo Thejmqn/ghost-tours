@@ -1,13 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from "./pages/Main";
-import Haunted from "./pages/Haunted";
+import Main from "./pages/Home";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/haunted" element={<Haunted />} />
+        <Route path="/about" />Now 
       </Routes>
     </BrowserRouter>
   );
