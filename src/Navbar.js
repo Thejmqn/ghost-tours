@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from './logo.png';
+import instaLogo from './instagram_logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,10 +20,16 @@ const Navbar = () => {
         </div>
         </div>
         
-        <div className="menu-icon" onClick={toggleMenu}>
-          <div className={`menu-line ${isMenuOpen ? 'open' : ''}`}></div>
-          <div className={`menu-line ${isMenuOpen ? 'open' : ''}`}></div>
-          <div className={`menu-line ${isMenuOpen ? 'open' : ''}`}></div>
+        <div className="nav-actions">
+          <a href="https://instagram.com/ghosts_on_grounds" target="_blank" rel="noopener noreferrer" className="social-link">
+            <img src={instaLogo} alt="Instagram" className="camera-icon" />
+          </a>
+          
+          <div className="menu-icon" onClick={toggleMenu}>
+            <div className={`menu-line ${isMenuOpen ? 'open' : ''}`}></div>
+            <div className={`menu-line ${isMenuOpen ? 'open' : ''}`}></div>
+            <div className={`menu-line ${isMenuOpen ? 'open' : ''}`}></div>
+          </div>
         </div>
         
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

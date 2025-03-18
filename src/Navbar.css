@@ -49,6 +49,34 @@
     object-fit: contain;
   }
   
+  .nav-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-link:hover {
+    transform: scale(1.1);
+  }
+  
+  .camera-icon {
+    height: 20px;
+    width: 20px;
+    filter: invert(70%) sepia(25%) saturate(1000%) hue-rotate(220deg) brightness(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .camera-icon:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+  }
+  
   .nav-menu {
     display: flex;
     list-style: none;
@@ -174,5 +202,10 @@
   
     .menu-line.open:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -7px);
+    }
+  
+    /* Keep the camera icon visible in mobile view */
+    .social-link {
+      margin-right: 1rem;
     }
 }
