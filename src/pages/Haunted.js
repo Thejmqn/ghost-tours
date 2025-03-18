@@ -1,4 +1,4 @@
-import haunted from './IMG_0640.jpg';
+import haunted from './../media/IMG_0640.jpg';
 
 export default function Haunted() {
   return (

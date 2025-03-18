@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from "./Main";
-import Haunted from "./Haunted";
+import Main from "./pages/Main";
+import Haunted from "./pages/Haunted";
 
 function App() {
   return (

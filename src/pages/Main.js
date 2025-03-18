@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import ghost from './ghost.png';
+import logo from './../media/logo.svg';
+import ghost from './../media/ghost.png';
 import './App.css';
-import Navbar from './Navbar';
+import Navbar from './../components/Navbar';
 
 export default function Main() {
   return (
