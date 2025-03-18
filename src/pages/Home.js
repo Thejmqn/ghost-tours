@@ -17,7 +17,7 @@ const HomePage = () => {
           
           <div className="hero-buttons">
             <a href="/learn-more" className="hero-button learn-more-btn">Learn More</a>
-            <a href="/signup" className="hero-button sign-up-btn">Sign Up</a>
+            <a href="https://forms.gle/zVT3oiUfsfLxhcE46" className="hero-button sign-up-btn">Sign Up</a>
           </div>
         </div>
       </div>

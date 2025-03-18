@@ -40,7 +40,7 @@ const Navbar = () => {
             <a href="/about" className="nav-link">About</a>
           </li>
           <li className="nav-item">
-            <a href="/signup" className="nav-link">Sign Up</a>
+            <a href="/signup" className="https://forms.gle/zVT3oiUfsfLxhcE46">Sign Up</a>
           </li>
           <li className="nav-item">
             <a href="/report" className="nav-link">Report</a>
