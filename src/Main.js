@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import ghost from './ghost.png';
 import './App.css';
+import Navbar from './Navbar';
 
 export default function Main() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} style={{height: "16vh"}} className="App-logo" alt="logo" />
         <p>
