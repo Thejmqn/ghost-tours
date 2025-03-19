@@ -114,3 +114,30 @@
       font-size: 2.8rem;
     }
 }
+
+.hero-subtitle {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.hero-subtitle em {
+  color: #9370DB;
+  font-style: italic;
+  text-shadow: 0 0 5px rgba(147, 112, 219, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+}

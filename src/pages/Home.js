@@ -14,9 +14,12 @@ const HomePage = () => {
       <div className="hero-section" style={{ backgroundImage: `url(${background})` }}>
         <div className="hero-overlay">
           <h1 className="hero-title">Explore the Haunted Grounds of Mr. Jefferson's University</h1>
-          
+          <p className="hero-subtitle">
+            Tours every Sunday at 8pm, starting March 26th at the Rotunda. Free admission.<br/>
+            <em>Every place is haunted.</em>
+          </p>
           <div className="hero-buttons">
-            <a href="/learn-more" className="hero-button learn-more-btn">Learn More</a>
+            <a href="/about" className="hero-button learn-more-btn">Learn More</a>
             <a href="https://forms.gle/zVT3oiUfsfLxhcE46" className="hero-button sign-up-btn">Sign Up</a>
           </div>
         </div>
