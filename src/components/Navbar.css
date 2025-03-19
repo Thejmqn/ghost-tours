@@ -42,6 +42,30 @@
     justify-content: center;
     animation: float 3s ease-in-out infinite;
   }
+
+  .logo-link {
+    text-decoration: none;
+  }
+
+  .logo-link:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #fff, 0 0 12px #9370DB;
+  }
+
+  .logo-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #9370DB, transparent);
+    transition: width 0.3s ease;
+  }
+  
+  .logo-link:hover::after {
+    width: 100%;
+  }
   
   .ghost-logo {
     max-height: 100%;

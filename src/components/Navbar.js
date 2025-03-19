@@ -14,7 +14,9 @@ const Navbar = () => {
     <nav className="haunted-navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <span className="logo-text">Ghosts on Grounds</span>
+          <span className="logo-text">
+            <a href="/" className="logo-link">Ghosts on Grounds</a>
+          </span>
           <div className="logo-image">
             <img className="ghost-logo" src={logo} alt="Ghosts on Grounds Logo"/>
         </div>
