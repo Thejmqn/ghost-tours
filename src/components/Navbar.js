@@ -45,10 +45,10 @@ const Navbar = () => {
             <a href="https://forms.gle/zVT3oiUfsfLxhcE46" className="nav-link">Sign Up</a>
           </li>
           <li className="nav-item">
-            <a href="/report" className="nav-link">Report a Ghost</a>
+            <a href="https://forms.gle/nEmxfJcCTaFHDFsa7" className="nav-link">Report a Ghost</a>
           </li>
           <li className="nav-item">
-            <a href="/donate" className="nav-link">Donate</a>
+            <a href="https://forms.gle/rZLUdfDshzoxk78w8" className="nav-link">Donate</a>
           </li>
         </ul>
       </div>
