@@ -20,7 +20,7 @@ const HomePage = () => {
           </p>
           <div className="hero-buttons">
             <a href="/about" className="hero-button learn-more-btn">Learn More</a>
-            <a href="https://forms.gle/zVT3oiUfsfLxhcE46" className="hero-button sign-up-btn">Sign Up</a>
+            <a href="https://forms.gle/sdi2xo2MUyHsNYdZ9" className="hero-button sign-up-btn">Sign Up</a>
           </div>
         </div>
       </div>

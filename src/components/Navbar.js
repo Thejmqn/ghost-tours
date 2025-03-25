@@ -42,7 +42,7 @@ const Navbar = () => {
             <a href="/about" className="nav-link">About</a>
           </li>
           <li className="nav-item">
-            <a href="https://forms.gle/zVT3oiUfsfLxhcE46" className="nav-link">Sign Up</a>
+            <a href="https://forms.gle/sdi2xo2MUyHsNYdZ9" className="nav-link">Sign Up</a>
           </li>
           <li className="nav-item">
             <a href="https://forms.gle/nEmxfJcCTaFHDFsa7" className="nav-link">Report a Ghost</a>
