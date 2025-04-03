@@ -197,3 +197,43 @@
       margin-top: -30px;
     }
 }
+
+.team-section {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(76, 0, 130, 0.15);
+}
+
+.team-slideshow-container {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(76, 0, 130, 0.25);
+  background-color: #111;
+  padding: 10px;
+  border: 1px solid rgba(147, 112, 219, 0.3);
+}
+
+.team-slideshow {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Responsive adjustments for the iframe */
+@media screen and (max-width: 768px) {
+  .team-slideshow-container {
+    padding: 8px;
+  }
+  
+  .team-slideshow {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team-slideshow {
+    height: 300px;
+  }
+}

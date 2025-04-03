@@ -66,7 +66,27 @@ const About = () => {
             </li>
           </ul>
         </section>
-
+        <section className="about-section team-section">
+          <h2 className="section-title">Meet the Team</h2>
+          <p>
+            Our ghost tour guides are passionate about UVA history and the paranormal. 
+            Get to know the faces behind Ghosts on Grounds who will lead you through 
+            your supernatural adventure.
+          </p>
+          <div className="team-slideshow-container">
+            <iframe 
+              src="https://docs.google.com/presentation/d/e/2PACX-1vQUWVCYuWupTTX3C7G-D4FTmuJtm1jlA50IxSf8X_AzbXNxMkuAfj4NoBdz2zGbWKBFLcOmmkDcWUmD/embed" 
+              frameBorder="0" 
+              width="100%" 
+              height="480" 
+              allowFullScreen={true}
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              title="Meet the Ghosts on Grounds Team"
+              className="team-slideshow"
+            ></iframe>
+          </div>
+        </section>
         <section className="about-section">
           <h2 className="section-title">Join Us... If You Dare</h2>
           <p>
