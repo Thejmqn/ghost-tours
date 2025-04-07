@@ -94,7 +94,7 @@ const About = () => {
             prepare to step into a world where the past refuses to stay buried.
           </p>
           <div className="about-buttons">
-            <a href="https://forms.gle/anG8pNr1xf2cTSReA" className="about-button sign-up-btn">Sign Up Now</a>
+            <a href="https://forms.gle/2x4Yy2L8C9K9Lagf7" className="about-button sign-up-btn">Sign Up Now</a>
             <a href="https://forms.gle/nEmxfJcCTaFHDFsa7" className="about-button report-btn">Report A Ghost</a>
           </div>
         </section>
