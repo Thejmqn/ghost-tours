@@ -15,7 +15,7 @@ const HomePage = () => {
         <div className="hero-overlay">
           <h1 className="hero-title">Explore the Haunted Grounds of Mr. Jefferson's University</h1>
           <p className="hero-subtitle">
-            Tours every Sunday at 8pm, starting March 23rd at the Rotunda. Free admission.<br/>
+            Tours every Sunday at 9pm, starting March 23rd at the Rotunda. Free admission.<br/>
             <em>Every place is haunted.</em>
           </p>
           <div className="hero-buttons">
