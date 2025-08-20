@@ -3,6 +3,7 @@ import Main from "./pages/Home";
 import About from "./pages/About";
 import Report from "./pages/Report";
 import Donate from "./pages/Donate";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/report" element={<Report />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );

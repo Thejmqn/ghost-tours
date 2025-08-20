@@ -1,0 +1,133 @@
+/* Signup.css */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Page Title */
+.signup-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 100px; /* adjust for navbar */
+  color: #333;
+  font-family: 'Copperplate', 'Garamond';
+  text-shadow: 0 0 3px rgba(147, 112, 219, 0.3);
+  letter-spacing: 1px;
+}
+
+/* Calendar Wrapper */
+.calendar-container {
+  width: 90%;               /* take up most of the screen */
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(76, 0, 130, 0.2);
+  border: 1px solid rgba(147, 112, 219, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Iframe Styling */
+.calendar-frame {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 80vh;   /* scale height with screen */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .signup-title {
+    font-size: 2.5rem;
+  }
+
+  .calendar-container {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  .calendar-frame {
+    min-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signup-title {
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+
+  .calendar-frame {
+    min-height: 60vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signup-title {
+    font-size: 1.6rem;
+    margin-top: 60px;
+  }
+
+  .calendar-container {
+    padding: 0.5rem;
+    width: 96%;
+  }
+
+  .calendar-frame {
+    min-height: 55vh;
+  }
+}
+
+/* Signup Instructions */
+.signup-instructions {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto 1rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(76, 0, 130, 0.2);
+  border-left: 5px solid #9370DB;
+}
+
+.signup-instructions h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #9370DB;
+  font-family: 'Copperplate', 'Garamond';
+  text-shadow: 0 0 3px rgba(147, 112, 219, 0.3);
+}
+
+.signup-instructions p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.signup-instructions ol {
+  margin-left: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.signup-instructions li {
+  margin-bottom: 0.8rem;
+}
+
+.signup-content {
+  max-width: 1200px;
+  margin: -50px auto 2rem auto; /* overlaps hero like About */
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(76, 0, 130, 0.2);
+}
+
