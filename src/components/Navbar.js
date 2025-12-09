@@ -45,7 +45,7 @@ const Navbar = () => {
             <a href="/signup" className="nav-link">Sign Up</a>
           </li>
           <li className="nav-item">
-            <a href="https://forms.gle/nEmxfJcCTaFHDFsa7" className="nav-link">Report a Ghost</a>
+            <a href="https://report.ghostsongrounds.org" className="nav-link">Report a Ghost</a>
           </li>
           <li className="nav-item">
             <a href="https://forms.gle/rZLUdfDshzoxk78w8" className="nav-link">Donate</a>

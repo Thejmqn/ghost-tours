@@ -95,7 +95,7 @@ const About = () => {
           </p>
           <div className="about-buttons">
             <a href="/signup" className="about-button sign-up-btn">Sign Up Now</a>
-            <a href="https://forms.gle/nEmxfJcCTaFHDFsa7" className="about-button report-btn">Report A Ghost</a>
+            <a href="https://report.ghostsongrounds.org" className="about-button report-btn">Report A Ghost</a>
           </div>
         </section>
       </div>
